@@ -377,4 +377,137 @@ footer>p:hover {
 
 }
 
+.hide {
+    display: none;
+}
+
 /* mobile device responsive style */
+@media screen and (max-width:576px) {
+
+    /* icon styles */
+    .icon-blogs {
+
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 20px;
+    }
+
+    .blog {
+
+        width: 100%;
+    }
+
+    .blog:hover {
+        border: 2px dashed #FF900E;
+    }
+
+    .icon-blogs-content {
+        width: 100%;
+        text-align: center;
+    }
+
+    .icon-blog-section-container {
+        width: 80%;
+    }
+
+    /* teams  */
+    .section-container {
+
+        width: 100%;
+    }
+
+    .teams {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .teams-contents {
+        flex-direction: column;
+    }
+
+    .teams img {
+        width: 100%;
+    }
+
+    .teams-content {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    /* sponsor logo */
+    .sponsor-logo {
+        flex-direction: column;
+        margin: 60px;
+        row-gap: 25px;
+
+    }
+
+    /* engineer blog */
+    .engineer-container {
+        flex-direction: column-reverse;
+    }
+
+    .engineer-content {
+        text-align: center;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .engineer-image img {
+        width: 100%;
+    }
+
+    /* architect style */
+    .architect-section-container {
+        flex-direction: column-reverse;
+    }
+
+    .architect-image img {
+        width: 100%;
+    }
+
+    .architect-contents {
+        text-align: center;
+        width: 100%;
+        margin: 20px 10px;
+    }
+
+    .inner {
+        transform: translate(0, 0);
+        margin-bottom: 20px;
+    }
+
+    /* header style */
+    .banner {
+        width: 100%;
+    }
+
+    .banner-content {
+        width: 100%;
+    }
+
+    .banner-image img {
+        width: 100%;
+    }
+
+    .navigation-content {
+        flex-direction: column;
+    }
+
+    nav ul {
+        column-gap: 20px;
+    }
+
+    nav li {
+        font-size: 20px;
+        color: black;
+    }
+
+    .navigation-title {
+        text-align: center;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+
+    footer p {
+        margin-bottom: 50px;
+    }
+}
