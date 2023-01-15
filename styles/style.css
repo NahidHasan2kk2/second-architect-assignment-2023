@@ -116,7 +116,7 @@ nav ul {
     display: flex;
     align-items: center;
     column-gap: 50px;
-    width: 850px;
+    width: 950px;
 }
 
 
@@ -134,7 +134,7 @@ nav ul {
 }
 
 .teams-content {
-    width: 70%;
+    width: 50%;
 }
 
 .team-title {
@@ -153,7 +153,7 @@ nav ul {
 
 .team-text {
     color: #727272;
-    font-size: 14px;
+    font-size: 16px;
     margin-bottom: 20px;
 
 }
@@ -295,6 +295,39 @@ nav ul {
     background-color: #e9a4a4;
 
 }
+
+/* engineer section container style */
+.engineer-section-container {
+    display: flex;
+    justify-content: center;
+}
+
+.engineer-container {
+    display: flex;
+    width: 1050px;
+    align-items: center;
+    border: 1px solid #727272;
+
+
+}
+
+.engineer-content {
+    padding-left: 20px;
+}
+
+.engineer-title {
+    font-size: 45px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.engineer-text {
+    color: #727272;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+
 
 /* sponsor section container style */
 .sponsor-content {
